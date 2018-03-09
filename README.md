@@ -1,3 +1,4 @@
+![Aaron Swartz](https://github.com/younghz/Markdown/raw/master/Res/Aaron_Swartz.jpg
 # YelpCamp-full-stack-web-application
 Campground website made by Jie Guo
 
