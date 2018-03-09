@@ -1,4 +1,4 @@
-![Aaron Swartz](https://BillG0510/YelpCamp-full-stack-web-application/raw/master/image/landingpage.jpg)
+![Aaron Swartz](https://github.com/BillG0510/YelpCamp-full-stack-web-application/blob/master/image/landingpage.jpg)
 # YelpCamp-full-stack-web-application
 Campground website made by Jie Guo
 
