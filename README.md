@@ -1,4 +1,4 @@
-![Aaron Swartz](https://BillG0510/YelpCamp-full-stack-web-application/Markdown/raw/master/Res/183511520565330_.pic_hd.jpg)
+![Aaron Swartz](https://BillG0510/YelpCamp-full-stack-web-application/raw/master/Res/183511520565330_.pic_hd.jpg)
 # YelpCamp-full-stack-web-application
 Campground website made by Jie Guo
 
