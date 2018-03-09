@@ -1,0 +1,285 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport',
+1 verbose cli   'passport-local',
+1 verbose cli   'passport-local-mongoose',
+1 verbose cli   'expression-session',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData passport
+8 silly fetchPackageMetaData passport-local
+9 silly fetchPackageMetaData passport-local-mongoose
+10 silly fetchPackageMetaData expression-session
+11 silly fetchNamedPackageData passport
+12 silly mapToRegistry name passport
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'passport',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: 'passport',
+15 silly mapToRegistry   name: 'passport',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/passport
+17 silly fetchNamedPackageData passport-local
+18 silly mapToRegistry name passport-local
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'passport-local',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   escapedName: 'passport-local',
+21 silly mapToRegistry   name: 'passport-local',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+23 silly fetchNamedPackageData passport-local-mongoose
+24 silly mapToRegistry name passport-local-mongoose
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'passport-local-mongoose',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'passport-local-mongoose',
+27 silly mapToRegistry   name: 'passport-local-mongoose',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/passport-local-mongoose
+29 silly fetchNamedPackageData expression-session
+30 silly mapToRegistry name expression-session
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'expression-session',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   escapedName: 'expression-session',
+33 silly mapToRegistry   name: 'expression-session',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/expression-session
+35 verbose request uri https://registry.npmjs.org/passport
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 8:32:07 PM
+38 verbose request id 81dddac53fcb0365
+39 http request GET https://registry.npmjs.org/passport
+40 verbose request uri https://registry.npmjs.org/passport-local
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 8:32:07 PM
+43 http request GET https://registry.npmjs.org/passport-local
+44 verbose request uri https://registry.npmjs.org/passport-local-mongoose
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 8:32:07 PM
+47 http request GET https://registry.npmjs.org/passport-local-mongoose
+48 verbose request uri https://registry.npmjs.org/expression-session
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 8:32:07 PM
+51 http request GET https://registry.npmjs.org/expression-session
+52 http 200 https://registry.npmjs.org/passport-local
+53 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+53 verbose headers   server: 'UploadServer',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   'last-modified': 'Wed, 28 Feb 2018 19:33:49 GMT',
+53 verbose headers   etag: '"5a97041d-39a8"',
+53 verbose headers   'x-npm-region': 'US-Central',
+53 verbose headers   'content-encoding': 'gzip',
+53 verbose headers   'content-length': '3134',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '2665',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-mdw17326-MDW',
+53 verbose headers   'x-cache': 'HIT',
+53 verbose headers   'x-cache-hits': '1',
+53 verbose headers   'x-timer': 'S1519936327.461590,VS0,VE0',
+53 verbose headers   vary: 'Accept-Encoding, Accept' }
+54 silly get cb [ 200,
+54 silly get   { 'content-type': 'application/json; charset=UTF-8',
+54 silly get     server: 'UploadServer',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     'last-modified': 'Wed, 28 Feb 2018 19:33:49 GMT',
+54 silly get     etag: '"5a97041d-39a8"',
+54 silly get     'x-npm-region': 'US-Central',
+54 silly get     'content-encoding': 'gzip',
+54 silly get     'content-length': '3134',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '2665',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-mdw17326-MDW',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '1',
+54 silly get     'x-timer': 'S1519936327.461590,VS0,VE0',
+54 silly get     vary: 'Accept-Encoding, Accept' } ]
+55 verbose get saving passport-local to /home/ubuntu/.npm/registry.npmjs.org/passport-local/.cache.json
+56 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+57 http 200 https://registry.npmjs.org/passport-local-mongoose
+58 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+58 verbose headers   server: 'UploadServer',
+58 verbose headers   'cache-control': 'max-age=300',
+58 verbose headers   'last-modified': 'Thu, 1 Mar 2018 10:25:45 GMT',
+58 verbose headers   etag: '"5a97d529-cc30"',
+58 verbose headers   'x-npm-region': 'US-Central',
+58 verbose headers   'content-encoding': 'gzip',
+58 verbose headers   'content-length': '9451',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   age: '442',
+58 verbose headers   connection: 'keep-alive',
+58 verbose headers   'x-served-by': 'cache-mdw17347-MDW',
+58 verbose headers   'x-cache': 'HIT',
+58 verbose headers   'x-cache-hits': '1',
+58 verbose headers   'x-timer': 'S1519936327.463306,VS0,VE1',
+58 verbose headers   vary: 'Accept-Encoding, Accept' }
+59 silly get cb [ 200,
+59 silly get   { 'content-type': 'application/json; charset=UTF-8',
+59 silly get     server: 'UploadServer',
+59 silly get     'cache-control': 'max-age=300',
+59 silly get     'last-modified': 'Thu, 1 Mar 2018 10:25:45 GMT',
+59 silly get     etag: '"5a97d529-cc30"',
+59 silly get     'x-npm-region': 'US-Central',
+59 silly get     'content-encoding': 'gzip',
+59 silly get     'content-length': '9451',
+59 silly get     'accept-ranges': 'bytes',
+59 silly get     date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     age: '442',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-mdw17347-MDW',
+59 silly get     'x-cache': 'HIT',
+59 silly get     'x-cache-hits': '1',
+59 silly get     'x-timer': 'S1519936327.463306,VS0,VE1',
+59 silly get     vary: 'Accept-Encoding, Accept' } ]
+60 verbose get saving passport-local-mongoose to /home/ubuntu/.npm/registry.npmjs.org/passport-local-mongoose/.cache.json
+61 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+62 http 200 https://registry.npmjs.org/passport
+63 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+63 verbose headers   server: 'UploadServer',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   'last-modified': 'Wed, 28 Feb 2018 19:32:41 GMT',
+63 verbose headers   etag: '"5a9703d9-bc4a"',
+63 verbose headers   'x-npm-region': 'US-Central',
+63 verbose headers   'content-encoding': 'gzip',
+63 verbose headers   'content-length': '9362',
+63 verbose headers   'accept-ranges': 'bytes',
+63 verbose headers   date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   age: '2728',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '2',
+63 verbose headers   'x-timer': 'S1519936328.588612,VS0,VE0',
+63 verbose headers   vary: 'Accept-Encoding, Accept' }
+64 silly get cb [ 200,
+64 silly get   { 'content-type': 'application/json; charset=UTF-8',
+64 silly get     server: 'UploadServer',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     'last-modified': 'Wed, 28 Feb 2018 19:32:41 GMT',
+64 silly get     etag: '"5a9703d9-bc4a"',
+64 silly get     'x-npm-region': 'US-Central',
+64 silly get     'content-encoding': 'gzip',
+64 silly get     'content-length': '9362',
+64 silly get     'accept-ranges': 'bytes',
+64 silly get     date: 'Thu, 01 Mar 2018 20:32:07 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     age: '2728',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-ord1744-ORD',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '2',
+64 silly get     'x-timer': 'S1519936328.588612,VS0,VE0',
+64 silly get     vary: 'Accept-Encoding, Accept' } ]
+65 verbose get saving passport to /home/ubuntu/.npm/registry.npmjs.org/passport/.cache.json
+66 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+67 http 404 https://registry.npmjs.org/expression-session
+68 verbose headers { 'content-type': 'application/json',
+68 verbose headers   'cache-control': 'max-age=0',
+68 verbose headers   'content-length': '2',
+68 verbose headers   'accept-ranges': 'bytes',
+68 verbose headers   date: 'Thu, 01 Mar 2018 20:32:08 GMT',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-served-by': 'cache-mdw17347-MDW',
+68 verbose headers   'x-cache': 'MISS',
+68 verbose headers   'x-cache-hits': '0',
+68 verbose headers   'x-timer': 'S1519936327.465331,VS0,VE973',
+68 verbose headers   vary: 'Accept-Encoding' }
+69 silly get cb [ 404,
+69 silly get   { 'content-type': 'application/json',
+69 silly get     'cache-control': 'max-age=0',
+69 silly get     'content-length': '2',
+69 silly get     'accept-ranges': 'bytes',
+69 silly get     date: 'Thu, 01 Mar 2018 20:32:08 GMT',
+69 silly get     via: '1.1 varnish',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-served-by': 'cache-mdw17347-MDW',
+69 silly get     'x-cache': 'MISS',
+69 silly get     'x-cache-hits': '0',
+69 silly get     'x-timer': 'S1519936327.465331,VS0,VE973',
+69 silly get     vary: 'Accept-Encoding' } ]
+70 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/expression-session
+70 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+70 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+70 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+70 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+70 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+70 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+70 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+70 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+70 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+70 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+70 silly fetchPackageMetaData  error for expression-session { Error: Registry returned 404 for GET on https://registry.npmjs.org/expression-session
+70 silly fetchPackageMetaData     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+70 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+70 silly fetchPackageMetaData     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+70 silly fetchPackageMetaData     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+70 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+70 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+70 silly fetchPackageMetaData     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+70 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+70 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+70 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'expression-session', statusCode: 404, code: 'E404' }
+71 silly rollbackFailedOptional Starting
+72 silly rollbackFailedOptional Finishing
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/expression-session
+75 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+75 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+75 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+75 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:187:22)
+75 verbose stack     at emitTwo (events.js:106:13)
+75 verbose stack     at Request.emit (events.js:191:7)
+75 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+75 verbose stack     at emitOne (events.js:96:13)
+75 verbose stack     at Request.emit (events.js:188:7)
+75 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:969:12)
+76 verbose statusCode 404
+77 verbose pkgid expression-session
+78 verbose cwd /home/ubuntu/workspace/v5
+79 error Linux 4.9.80-c9
+80 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "install" "passport" "passport-local" "passport-local-mongoose" "expression-session" "--save"
+81 error node v6.11.2
+82 error npm  v3.10.10
+83 error code E404
+84 error 404 Registry returned 404 for GET on https://registry.npmjs.org/expression-session
+85 error 404
+86 error 404 'expression-session' is not in the npm registry.
+87 error 404 You should bug the author to publish it (or use the name yourself!)
+88 error 404 Note that you can also install from a
+89 error 404 tarball, folder, http url, or git url.
+90 verbose exit [ 1, true ]
